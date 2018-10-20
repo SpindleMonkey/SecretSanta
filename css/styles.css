@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box; /* account for border and padding in box width/height */
+}
+
+/**
+ * Set up basic page defaults
+ */
+body {
+  background: #fff; /* white */
+  color: #000; /* black */
+  font: 18px 'Zilla Slab', serif;
+}
+
+/**
+ * Set up basic header defaults
+ */
+header {
+  color: rgb(216, 0, 0);  /* reddish */
+  font-size: 48px;
+  font-weight: 900; /* very bold */
+  margin: 0 auto 20px auto;
+  text-align: center;
+  width: 600px;
+}
+
+/**
+ * Set up basic section defaults
+ */
+section {
+  margin: 0 auto;
+  width: 600px;
+}
+
+button {
+  background: #fff; /* white */
+  border: 0;
+  color: rgba(216, 0, 0, 1); /* reddish */
+  font: 24px 'Zilla Slab', serif;
+  height: 50px;
+  /* margin: 5px 10px; */
+  width: 100%;
+}
+
+button:hover {
+  color: rgba(216, 0, 0, .7); /* reddish, but less opaque */
+}
+
+h2 {
+  font-weight: 700;
+}
+
