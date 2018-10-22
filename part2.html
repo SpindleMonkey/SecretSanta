@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Secret Santa Generator, Part 2</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <header>Secret Santa Generator<br>Part 2</header>
+  <section>
+    <h2>Families</h2>
+    <p>A family is represented by an array of objects describing the state of each family member; e.g., { santa: 'Isaak',     avail: true, partner: '', history: [] }. See <em>familias</em> in js/app.js for the actual families used.</p>
+  </section>
+  <section>
+    <div>
+      <h2>Family 1 Assignments</h2>
+      <p id="family21"></p>
+      <p><button onclick="generateSecretSantas(0);">Generate Secret Santas</button></p>
+    </div>
+    <div>
+      <h2>Family 2 Assignments</h2>
+      <p id="family22"></p>
+      <p><button onclick="generateSecretSantas(1);">Generate Secret Santas</button></p>
+    </div>
+    <div>
+      <h2>Family 3 Assignments</h2>
+      <p id="family23"></p>
+      <p><button onclick="generateSecretSantas(2);">Generate Secret Santas</button></p>
+    </div>
+    <div>
+      <h2>Family 4 Assignments</h2>
+      <p id="family24"></p>
+      <p><button onclick="generateSecretSantas(3);">Generate Secret Santas</button></p>
+    </div>
+  </section>
+  <footer>
+    <a href="index.html"><button>Home</button></a>
+  </footer>
+
+<script src="js/app.js"></script>
+</body>
+</html>

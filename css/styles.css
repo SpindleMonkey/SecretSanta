@@ -31,13 +31,17 @@ section {
   width: 600px;
 }
 
+footer {
+  margin: 0 auto;
+  width: 600px;
+}
+
 button {
-  background: #fff; /* white */
+  background: #ccc; /* white */
   border: 0;
   color: rgba(216, 0, 0, 1); /* reddish */
   font: 24px 'Zilla Slab', serif;
   height: 50px;
-  /* margin: 5px 10px; */
   width: 100%;
 }
 
