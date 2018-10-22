@@ -3,7 +3,7 @@ Secret Santa generator
 
 This is a coding exercise in three parts, and is defined [here](MLB_Coding_Exercise.pdf).
 
-My solution can be found at [www.constantlykephart.com/MLB](www.constantlykephart.com/MLB/).
+My solution can be found at [www.constantlykephart.com/MLB](http://www.constantlykephart.com/MLB/).
 
 ## Environment
 This was tested in Firefox on a Mac. No testing was done on any other platform, but I expect most browsers will work; no promises tablets/phones will be usable.
